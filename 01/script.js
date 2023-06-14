@@ -1,18 +1,6 @@
-let fruta = 'fruta'
+var prova = parseFloat(prompt("Qual a nota da prova?"));
+var trabalho = parseFloat(prompt("Qual a nota do trabalho?"));
 
-let span = document.getElementById('texto')
-fruta = prompt('O que deseja?')
+var notafinal = prova + trabalho;
 
-switch (fruta) {
-    case 'maçã':
-        alert('Não vendemos essa fruta aqui')
-        break
-    case 'kiwi':
-        alert('Estamos com escassez de kiwis')
-        break
-    case 'melancia':
-        alert('Aqui está, são 3 reais o quilo')
-        break
-    default:
-        alert("Recarregue a página e experimento novos resultados")
-}
+alert(notafinal);
